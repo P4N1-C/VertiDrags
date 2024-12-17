@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porrtfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" alt="">
+                <div class="toggle" id="toggle" data-show="false"><i class="fa-solid fa-xmark none t-i"></i>
+                <i class="fa-solid fa-bars t-i"></i></div>
+                <ul class="nav-list" data-expanded="false">
+                    <li class="nav-items"><a href="#">Home</a></li>
+                    <li class="nav-items"><a href="#">About</a></li>
+                    <li class="nav-items"><a href="#">Projects</a></li>
+                    <li class="nav-items"><a href="#">Services</a></li>
+                    <li class="nav-items"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi I'm <span>Mayank</span><br>Joshi From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------------------About---------------------------- -->
+
+    <div id="about">
+        <div class="row">
+            <div class="col-1">
+                <img src="./images/user.png" alt="">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title">About Me</h1>
+
+                <p class="about-desription">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias dicta
+                    asperiores dolorum expedita non, blanditiis hic adipisci repellendus modi iure sed cum aut assumenda
+                    inventore amet ea vero deleniti ex ipsa! Dolore, earum eveniet?</p>
+                <div class="tab-container">
+
+                    <div class="tab-titles">
+                        <p class="tab-links active" id="tab-links-Skills" data-target="Skills">Skills</p>
+                        <p class="tab-links " id="tab-links-Experience" data-target="Experience">Experience</p>
+                        <p class="tab-links" id="tab-links-Education" data-target="Education">Education</p>
+                    </div>
+                    <div class="t-section">
+                        <div class="tab-content" data-show="true" id="tab-content-Skills">
+                            <p><span>UI/UX Designer</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Iure, veritatis.</p>
+                            <p><span>Web Developer</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Atque, hic.</p>
+                            <p><span>App Developer</span><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Provident, ipsa.</p>
+                        </div>
+                        <div class="tab-content" data-show="false" id="tab-content-Experience">
+                            <br><span>2010-2012</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                            totam.</p>
+                            <p><span>2012-2018</span><br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo,
+                                incidunt.</p>
+                            <p><span>2018-2024</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Tempora, sit?</p>
+                        </div>
+                        <div class="tab-content" data-show="false" id="tab-content-Education">
+                            <p><span>Schooling</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non,
+                                exercitationem?</p>
+                            <p><span>Graduation</span><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
+                                maiores?</p>
+                            <p><span>Masters</span><br>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Laudantium, obcaecati.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------------------------Services------------------------ -->
+
+    <div class="Services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div class="services-section">
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatem expedita ab repudiandae cupiditate harum libero nihil.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="services-section">
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Devlopment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatem expedita ab repudiandae cupiditate harum libero nihil.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div class="services-section">
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Devlopment</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptatem expedita ab repudiandae cupiditate harum libero nihil.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------Projects--------------------------------- -->
+<div class="Project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>Chating App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, tenetur Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="#" class="btn">See More</a>
+
+<!-- ----------------------------------Contact-------------------------- -->
+<div class="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact</h1>
+        <div class="row">
+            <div class="col-left">
+                <p><i class="fa-solid fa-envelope"></i>  Contact@email.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>  +91 0123456789</p>
+<div class="social-icons">
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+</div>
+<a href="" class="btn btn2">Download CV</a>
+            </div> 
+            <div class="col-right">
+                <form action="">
+                    <input type="text" placeholder="Your Name" >
+                    <input type="email" placeholder="Email">
+                    <textarea name="" id="" placeholder="Message" rows="5"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer"><p>
+    Copyrigth &copy; Made With <i class="fa-solid fa-heart"></i> By Kevin
+</p></footer>
+
+</body>
+<script src="./index.js"></script>
+
+</html>
