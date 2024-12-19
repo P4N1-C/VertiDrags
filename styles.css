@@ -1,0 +1,198 @@
+/* General */
+body {
+  font-family: 'Space Grotesk', 'Noto Sans', sans-serif;
+  background-color: #111118;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #111118;
+  padding: 16px;
+  height: auto;
+}
+
+.scroll-btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url('Assets/home.jpg') no-repeat center center;
+  background-size: cover;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+}
+
+.hero h2 {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.cta-btn {
+  background-color: #1919e6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Models Section */
+.taxi_models {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section-title {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin: 25px 0;
+}
+
+.models {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  height: 100%;
+  width: 100%;
+  padding:2% 5%;
+}
+
+.model {
+  width: 48%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.model-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden; 
+  transition: opacity 0.3s ease;
+}
+
+.model-spec {
+  position: absolute; /* Position on top of the image */
+  top: 50%; /* Position at the center vertically */
+  left: 50%; /* Position at the center horizontally */
+  transform: translate(-50%, -50%); /* Ensure exact centering */
+  color: #ffffff; /* White text for visibility */
+  padding: 10px;
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.model-name {
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.model:hover .model-image {
+  opacity: 0.6; /* Dims the image */
+}
+
+.model:hover .model-spec {
+  opacity: 1; /* Shows the specification */
+}
+
+
+/* Vision Section */
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.features .section-title {
+  width: 93%;
+}
+
+.vision {
+  padding: 16px;
+  width: 95%;
+}
+
+.vision-item {
+  padding: 10px 0;
+  border-top: 1px solid #3c3c53;
+}
+
+.vision-title {
+  color: #9d9db8;
+}
+
+/* Newsletter */
+.notify_me {
+  border-top: 1px solid #3c3c53;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter {
+  padding: 16px;
+  display: flex;
+  gap: 8px;
+}
+
+.newsletter input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #292938;
+  color: #ffffff;
+}
+
+.newsletter button {
+  background-color: #1919e6;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #9d9db8;
+}

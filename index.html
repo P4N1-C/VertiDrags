@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&family=Noto+Sans:wght@400;500;700;900&family=Space+Grotesk:wght@400;500;700"
+    />
+    <title>VertiDrags</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <button class="scroll-btn" onclick="scrollDown()">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24px"
+          height="24px"
+          fill="currentColor"
+          viewBox="0 0 256 256"
+        >
+          <path
+            d="M205.66,149.66l-72,72a8,8,0,0,1-11.32,0l-72-72a8,8,0,0,1,11.32-11.32L120,196.69V40a8,8,0,0,1,16,0V196.69l58.34-58.35a8,8,0,0,1,11.32,11.32Z"
+          ></path>
+        </svg>
+      </button>
+    </div>
+
+    <section class="hero">
+      <h1>VertiDrags</h1>
+      <h2>Air Taxis for the Future</h2>
+      <button class="cta-btn" onclick="scrollDown()">Learn more</button>
+    </section>
+
+    <section class="taxi_models">
+      <h2 class="section-title">Our Air Taxi Models</h2>
+      <div class="models">
+        <div class="model">
+          <div
+            class="model-image"
+            style="background-image: url('Assets/model_1.png')"
+          >
+            <p class="model-spec">Price: $5,000 per flight</p>
+          </div>
+          <p class="model-name">Model 1</p>
+        </div>
+        <div class="model">
+          <div
+            class="model-image"
+            style="background-image: url('Assets/model_2.png')"
+          >
+            <p class="model-spec">Seats 8 passengers</p>
+          </div>
+          <p class="model-name">Model 2</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2 class="section-title">Company Vision</h2>
+      <div class="vision">
+        <div class="vision-item">
+          <p class="vision-title">Sustainable</p>
+          <p>We're committed to sustainable air mobility.</p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Efficient</p>
+          <p>Our air taxis are designed for maximum efficiency.</p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Accessible</p>
+          <p>We aim to make air travel more accessible than ever.</p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Innovative</p>
+          <p>
+            We embrace innovation to stay ahead of the curve, constantly
+            refining our technology to enhance performance, safety, and user
+            experience.
+          </p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Safe</p>
+          <p>
+            Safety is our top priority. Every air taxi in our fleet undergoes
+            rigorous testing and adheres to the highest safety standards.
+          </p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Connected</p>
+          <p>We believe in building a connected transportation ecosystem.</p>
+        </div>
+        <div class="vision-item">
+          <p class="vision-title">Inclusive</p>
+          <p>
+            At VertiDrags, we strive to create an inclusive transportation
+            system that caters to diverse needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="notify_me">
+      <h2 class="section-title">Stay Informed</h2>
+      <div class="newsletter">
+        <label>
+          <input type="text" placeholder="Email Address" />
+        </label>
+        <button>Sign Up</button>
+      </div>
+    </section>
+    <footer>
+      <p>© 2024 VertiDrags. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
