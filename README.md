@@ -6,11 +6,7 @@ VertiDrags is a modern website showcasing air taxi models, features, and company
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+- 
 ## Project Overview
 VertiDrags aims to revolutionize air travel by providing eco-friendly, efficient, and accessible air taxis. This website serves as an introduction to the company and its models, providing key information about the products and services. The website is designed with a focus on modern UI/UX principles, showcasing the features of VertiDrags' air taxis.
 
@@ -27,10 +23,3 @@ VertiDrags aims to revolutionize air travel by providing eco-friendly, efficient
 - **Tailwind CSS**: A utility-first CSS framework to create custom designs quickly.
 - **JavaScript**: Used for basic functionality like smooth scrolling.
 - **Google Fonts**: For custom fonts (Noto Sans and Space Grotesk).
-
-## Installation
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/vertidrags.git
